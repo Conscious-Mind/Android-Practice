@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_life_cycle_host"
+    app:startDestination="@id/lifeFragment1">
+
+    <fragment
+        android:id="@+id/lifeFragment1"
+        android:name="com.davidson.rockpaperscissor.LifeFragment1"
+        android:label="fragment_life1"
+        tools:layout="@layout/fragment_life1" >
+        <action
+            android:id="@+id/action_lifeFragment1_to_lifeFragment2"
+            app:destination="@id/lifeFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/lifeFragment2"
+        android:name="com.davidson.rockpaperscissor.LifeFragment2"
+        android:label="fragment_life2"
+        tools:layout="@layout/fragment_life2" >
+        <action
+            android:id="@+id/action_lifeFragment2_to_lifeFragment3"
+            app:destination="@id/lifeFragment3" />
+    </fragment>
+    <fragment
+        android:id="@+id/lifeFragment3"
+        android:name="com.davidson.rockpaperscissor.LifeFragment3"
+        android:label="fragment_life3"
+        tools:layout="@layout/fragment_life3" />
+</navigation>

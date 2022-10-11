@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <!--User Defined Color-->
+    <color name="cancel_btn_color">#FDB82C</color>
+    <color name="symbol_btn1_color">#494238</color>
+    <color name="symbol_btn2_color">#4B365F</color>
+    <color name="equal_btn_color">#9B2BF2</color>
+    <color name="num_btn_color">#383B3E</color>
+    <color name="back_btn_color">#2D2E32</color>
+    <color name="text_white_color">#FFFFFF</color>
+</resources>
